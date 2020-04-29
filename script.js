@@ -4,6 +4,7 @@ var interval;
 
 for (var i = 0; i < navMenuAnchorTags.length; i++) {
     navMenuAnchorTags[i].addEventListener('click', function (event) {
+        //a tag default behaviour prevented 
         event.preventDefault();
         var targetSectionID = this.textContent.trim().toLowerCase();
         console.log(this.textContent);
