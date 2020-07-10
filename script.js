@@ -26,4 +26,5 @@ function scrollVertically(targetSection) {
         return;
     }
     window.scrollBy(0, 50);
+    return;
 }
