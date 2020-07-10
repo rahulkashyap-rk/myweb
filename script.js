@@ -15,6 +15,7 @@ for (var i = 0; i < navMenuAnchorTags.length; i++) {
         interval = setInterval(function () {
             scrollVertically(targetSection);
         }, 20);
+        return;
     });
 }
 
@@ -26,5 +27,5 @@ function scrollVertically(targetSection) {
         return;
     }
     window.scrollBy(0, 50);
-    return;
+    
 }
